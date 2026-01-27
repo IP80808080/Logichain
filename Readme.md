@@ -1,4 +1,4 @@
-# LogiChain Nexus
+# LogiChain
 
 **Real-Time Warehouse & Shipment Orchestration Platform**
 
