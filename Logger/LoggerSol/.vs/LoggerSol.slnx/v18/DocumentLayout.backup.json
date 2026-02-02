@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\Classes\\CDAC\\IACSD\\Projects\\Advance Java Project\\Logger\\LoggerSol\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C000A97B-2D46-7DE7-E934-66D7144D4963}|Logger\\Logger.csproj|k:\\classes\\cdac\\iacsd\\projects\\advance java project\\logger\\loggersol\\logger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C000A97B-2D46-7DE7-E934-66D7144D4963}|Logger\\Logger.csproj|solutionrelative:logger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C000A97B-2D46-7DE7-E934-66D7144D4963}|Logger\\Logger.csproj|k:\\classes\\cdac\\iacsd\\projects\\advance java project\\logger\\loggersol\\logger\\services\\databaseinitializationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C000A97B-2D46-7DE7-E934-66D7144D4963}|Logger\\Logger.csproj|solutionrelative:logger\\services\\databaseinitializationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C000A97B-2D46-7DE7-E934-66D7144D4963}|Logger\\Logger.csproj|k:\\classes\\cdac\\iacsd\\projects\\advance java project\\logger\\loggersol\\logger\\models\\logrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C000A97B-2D46-7DE7-E934-66D7144D4963}|Logger\\Logger.csproj|solutionrelative:logger\\models\\logrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C000A97B-2D46-7DE7-E934-66D7144D4963}|Logger\\Logger.csproj|k:\\classes\\cdac\\iacsd\\projects\\advance java project\\logger\\loggersol\\logger\\services\\databaseloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C000A97B-2D46-7DE7-E934-66D7144D4963}|Logger\\Logger.csproj|solutionrelative:logger\\services\\databaseloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C000A97B-2D46-7DE7-E934-66D7144D4963}|Logger\\Logger.csproj|k:\\classes\\cdac\\iacsd\\projects\\advance java project\\logger\\loggersol\\logger\\controllers\\logcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C000A97B-2D46-7DE7-E934-66D7144D4963}|Logger\\Logger.csproj|solutionrelative:logger\\controllers\\logcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C000A97B-2D46-7DE7-E934-66D7144D4963}|Logger\\Logger.csproj|k:\\classes\\cdac\\iacsd\\projects\\advance java project\\logger\\loggersol\\logger\\logger.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C000A97B-2D46-7DE7-E934-66D7144D4963}|Logger\\Logger.csproj|solutionrelative:logger\\logger.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kkaml\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.23.0\\build\\Container.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatabaseInitializationService.cs",
+              "DocumentMoniker": "K:\\Classes\\CDAC\\IACSD\\Projects\\Advance Java Project\\Logger\\LoggerSol\\Logger\\Services\\DatabaseInitializationService.cs",
+              "RelativeDocumentMoniker": "Logger\\Services\\DatabaseInitializationService.cs",
+              "ToolTip": "K:\\Classes\\CDAC\\IACSD\\Projects\\Advance Java Project\\Logger\\LoggerSol\\Logger\\Services\\DatabaseInitializationService.cs",
+              "RelativeToolTip": "Logger\\Services\\DatabaseInitializationService.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAYwEsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T19:18:37.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DatabaseLoggerService.cs",
+              "DocumentMoniker": "K:\\Classes\\CDAC\\IACSD\\Projects\\Advance Java Project\\Logger\\LoggerSol\\Logger\\Services\\DatabaseLoggerService.cs",
+              "RelativeDocumentMoniker": "Logger\\Services\\DatabaseLoggerService.cs",
+              "ToolTip": "K:\\Classes\\CDAC\\IACSD\\Projects\\Advance Java Project\\Logger\\LoggerSol\\Logger\\Services\\DatabaseLoggerService.cs",
+              "RelativeToolTip": "Logger\\Services\\DatabaseLoggerService.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwEwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T18:51:52.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Logger",
+              "DocumentMoniker": "K:\\Classes\\CDAC\\IACSD\\Projects\\Advance Java Project\\Logger\\LoggerSol\\Logger\\Logger.csproj",
+              "RelativeDocumentMoniker": "Logger\\Logger.csproj",
+              "ToolTip": "K:\\Classes\\CDAC\\IACSD\\Projects\\Advance Java Project\\Logger\\LoggerSol\\Logger\\Logger.csproj",
+              "RelativeToolTip": "Logger\\Logger.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-02T18:51:19.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "K:\\Classes\\CDAC\\IACSD\\Projects\\Advance Java Project\\Logger\\LoggerSol\\Logger\\Program.cs",
+              "RelativeDocumentMoniker": "Logger\\Program.cs",
+              "ToolTip": "K:\\Classes\\CDAC\\IACSD\\Projects\\Advance Java Project\\Logger\\LoggerSol\\Logger\\Program.cs",
+              "RelativeToolTip": "Logger\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAwwD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T09:13:29.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LogController.cs",
+              "DocumentMoniker": "K:\\Classes\\CDAC\\IACSD\\Projects\\Advance Java Project\\Logger\\LoggerSol\\Logger\\Controllers\\LogController.cs",
+              "RelativeDocumentMoniker": "Logger\\Controllers\\LogController.cs",
+              "ToolTip": "K:\\Classes\\CDAC\\IACSD\\Projects\\Advance Java Project\\Logger\\LoggerSol\\Logger\\Controllers\\LogController.cs",
+              "RelativeToolTip": "Logger\\Controllers\\LogController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T09:10:21.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LogRequest.cs",
+              "DocumentMoniker": "K:\\Classes\\CDAC\\IACSD\\Projects\\Advance Java Project\\Logger\\LoggerSol\\Logger\\Models\\LogRequest.cs",
+              "RelativeDocumentMoniker": "Logger\\Models\\LogRequest.cs",
+              "ToolTip": "K:\\Classes\\CDAC\\IACSD\\Projects\\Advance Java Project\\Logger\\LoggerSol\\Logger\\Models\\LogRequest.cs",
+              "RelativeToolTip": "Logger\\Models\\LogRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T09:07:47.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Container.targets",
+              "DocumentMoniker": "C:\\Users\\kkaml\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.23.0\\build\\Container.targets",
+              "ToolTip": "C:\\Users\\kkaml\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.23.0\\build\\Container.targets",
+              "ViewState": "AgIAACMBAAAAAAAAAADwv+QAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-01-28T09:05:00.506Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
