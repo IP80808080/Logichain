@@ -1,0 +1,38 @@
+# --- React / Frontend ---
+Frontend/node_modules/
+Frontend/dist/
+Frontend/build/
+Frontend/.env.local
+Frontend/.env.development.local
+Frontend/.env.test.local
+Frontend/.env.production.local
+Frontend/npm-debug.log*
+Frontend/yarn-debug.log*
+Frontend/yarn-error.log*
+
+# --- Spring Boot / Backend ---
+Backend/Test-3/target/
+Backend/Test-3/!.mvn/wrapper/maven-wrapper.jar
+Backend/Test-3/bin/
+Backend/Test-3/.settings/
+Backend/Test-3/.project
+Backend/Test-3/.classpath
+Backend/Test-3/*.impl
+Backend/Test-3/*.utils
+Backend/Test-3/.factorypath
+
+# --- Logger (C# / .NET) ---
+Logger/**/bin/
+Logger/**/obj/
+Logger/**/App_Data/
+Logger/.vs/
+Logger/*.user
+Logger/*.suo
+Logger/*.shellmnt
+
+# --- System Files ---
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
