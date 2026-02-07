@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![LogiChain Banner](https://via.placeholder.com/1200x300/4F46E5/FFFFFF?text=LogiChain+Supply+Chain+Platform)
+<img width="746" height="346" alt="image" src="https://github.com/user-attachments/assets/7ce81352-91b3-4450-9e76-965f9572a4c7" />
 
 **Real-Time Warehouse & Shipment Orchestration Platform**
 
