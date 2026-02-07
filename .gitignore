@@ -2,6 +2,7 @@
 Frontend/node_modules/
 Frontend/dist/
 Frontend/build/
+Frontend/.env
 Frontend/.env.local
 Frontend/.env.development.local
 Frontend/.env.test.local
@@ -24,11 +25,25 @@ Backend/Test-3/.factorypath
 # --- Logger (C# / .NET) ---
 Logger/**/bin/
 Logger/**/obj/
+Logger/**/publish/
 Logger/**/App_Data/
-Logger/.vs/
+
+# User-specific files
 Logger/*.user
 Logger/*.suo
-Logger/*.shellmnt
+Logger/*.userosscache
+Logger/*.sln.docstates
+
+# NuGet Packages
+Logger/*.nupkg
+Logger/*.snupkg
+Logger/**/packages/
+!Logger/**/packages/build/
+
+# Visual Studio cache & internal files
+Logger/.vs/
+Logger/.localhistory
+Logger/TestResults/
 
 # --- System Files ---
 .DS_Store
@@ -36,3 +51,7 @@ Thumbs.db
 *.log
 .vscode/
 .idea/
+
+application-env.properties
+.env
+**/launchSettings.json
