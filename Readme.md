@@ -175,7 +175,6 @@ Built with a **microservices architecture**, LogiChain eliminates supply chain o
 |------------|---------|
 | **Git** | Version control |
 | **Docker** | Containerization |
-| **Nginx** | Reverse proxy |
 | **Postman** | API testing |
 
 ---
