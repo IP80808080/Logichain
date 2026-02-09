@@ -92,15 +92,15 @@ Built with a **microservices architecture**, LogiChain eliminates supply chain o
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                        Client Layer                          │
-│            (React SPA - Responsive & Mobile Ready)           │
+│                        Client Layer                         │
+│            (React SPA - Responsive & Mobile Ready)          │
 └─────────────────────────────────────────────────────────────┘
                               │
                               ├── HTTP/REST
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                      API Gateway Layer                       │
-│                   (Nginx Reverse Proxy)                      │
+│                      API Gateway Layer                      │
+│                                                             │
 └─────────────────────────────────────────────────────────────┘
                               │
             ┌─────────────────┼─────────────────┐
@@ -508,7 +508,6 @@ See [SUPER_SIMPLE_DEPLOYMENT.md](SUPER_SIMPLE_DEPLOYMENT.md) for step-by-step gu
 
 **Features:**
 - ✅ Single server deployment
-- ✅ Nginx reverse proxy
 - ✅ Systemd service management
 - ✅ Auto-restart on failure
 - ✅ $0 cost (Oracle Free Tier)
