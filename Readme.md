@@ -242,9 +242,7 @@ Before you begin, ensure you have:
 
 ```bash
 # Clone all repos
-git clone https://github.com/YOUR_USERNAME/logichain-backend.git
-git clone https://github.com/YOUR_USERNAME/logichain-frontend.git
-git clone https://github.com/YOUR_USERNAME/logichain-logger.git
+https://github.com/IP80808080/Logichain.git
 ```
 
 ---
@@ -351,14 +349,18 @@ DEFAULT_ADMIN_PASSWORD=admin123
 # CORS
 ALLOWED_ORIGINS=http://localhost:5173
 
-# Logger Service
-LOGGER_URL=http://localhost:5136/logs
+# External Logger
+logger.url=${LOGGER_URL:http://localhost:5136/logs}
+
+# Stripe
+stripe.api.key=${STRIPE_SECRET_KEY}
 ```
 
 ### Frontend (`.env`)
 
 ```env
 VITE_API_URL=http://localhost:8080/
+VITE_STRIPE_KEY=YOUR_PUBLISHER_API_KEY
 ```
 
 ### Logger (`launchSettings.json`)
@@ -534,11 +536,11 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Kamlesh Shrikant Kasambe**
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+- GitHub: [@IP80808080](https://github.com/ip80808080)
+- LinkedIn: [Kamlesh S. Kasambe]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/kamlesh-kasambe/))
+- Email: kasambe.kamlesh1@gmail.com
 
 ---
 
