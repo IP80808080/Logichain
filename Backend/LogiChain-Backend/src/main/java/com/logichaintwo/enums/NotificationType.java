@@ -1,0 +1,17 @@
+package com.logichaintwo.enums;
+
+public enum NotificationType {
+    ORDER_PLACED,
+    ORDER_CONFIRMED,
+    ORDER_PROCESSING,
+    SHIPPED,
+    OUT_FOR_DELIVERY,
+    DELIVERED,
+    ORDER_CANCELLED,
+    RETURN_REQUESTED,
+    RETURN_APPROVED,
+    RETURN_REJECTED,
+    REFUND_PROCESSED,
+    PAYMENT_RECEIVED,
+    PAYMENT_FAILED
+}
