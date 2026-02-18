@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![LogiChain Banner](https://via.placeholder.com/1200x300/4F46E5/FFFFFF?text=LogiChain+Supply+Chain+Platform)
+<img width="746" height="346" alt="image" src="https://github.com/user-attachments/assets/7ce81352-91b3-4450-9e76-965f9572a4c7" />
 
 **Real-Time Warehouse & Shipment Orchestration Platform**
 
@@ -92,15 +92,15 @@ Built with a **microservices architecture**, LogiChain eliminates supply chain o
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                        Client Layer                          │
-│            (React SPA - Responsive & Mobile Ready)           │
+│                        Client Layer                         │
+│            (React SPA - Responsive & Mobile Ready)          │
 └─────────────────────────────────────────────────────────────┘
                               │
                               ├── HTTP/REST
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                      API Gateway Layer                       │
-│                   (Nginx Reverse Proxy)                      │
+│                      API Gateway Layer                      │
+│                                                             │
 └─────────────────────────────────────────────────────────────┘
                               │
             ┌─────────────────┼─────────────────┐
@@ -175,7 +175,6 @@ Built with a **microservices architecture**, LogiChain eliminates supply chain o
 |------------|---------|
 | **Git** | Version control |
 | **Docker** | Containerization |
-| **Nginx** | Reverse proxy |
 | **Postman** | API testing |
 
 ---
@@ -509,7 +508,6 @@ See [SUPER_SIMPLE_DEPLOYMENT.md](SUPER_SIMPLE_DEPLOYMENT.md) for step-by-step gu
 
 **Features:**
 - ✅ Single server deployment
-- ✅ Nginx reverse proxy
 - ✅ Systemd service management
 - ✅ Auto-restart on failure
 - ✅ $0 cost (Oracle Free Tier)
