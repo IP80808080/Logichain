@@ -48,20 +48,14 @@ public class DataSeeder implements CommandLineRunner {
 
     
     private void createDefaultAdmin() {
-        log.info("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
-        log.info("Checking for default admin user...");
 
         if (userRepository.findByEmail(defaultAdminEmail).isPresent()) {
             log.info("Default admin user already exists with email: {}", defaultAdminEmail);
-            log.info("   No action needed - skipping admin creation");
-            log.info("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
             return;
         }
 
         if (userRepository.findByUsername(defaultAdminUsername).isPresent()) {
             log.info("Admin user already exists with username: {}", defaultAdminUsername);
-            log.info("   No action needed - skipping admin creation");
-            log.info("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
             return;
         }
 
@@ -81,22 +75,16 @@ public class DataSeeder implements CommandLineRunner {
             User savedAdmin = userRepository.save(adminUser);
 
             log.info("Successfully created default admin user:");
-            log.info("   ┌─────────────────────────────────────────┐");
-            log.info("   │  ID       : {}", savedAdmin.getId());
-            log.info("   │  Email    : {}", defaultAdminEmail);
-            log.info("   │  Username : {}", defaultAdminUsername);
-            log.info("   │  Password : {} ", defaultAdminPassword);
-            log.info("   │  Role     : {}", Role.ADMIN);
-            log.info("   │  Status   : {}", ApprovalStatus.APPROVED);
-            log.info("   └─────────────────────────────────────────┘");
-            log.warn("   	 SECURITY WARNING: Please change the default password after first login!");
-            log.info("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
+            log.info("ID: {}", savedAdmin.getId());
+            log.info("Email: {}", defaultAdminEmail);
+            log.info("Username: {}", defaultAdminUsername);
+            log.info("Password: {} ", defaultAdminPassword);
+            log.info("Role: {}", Role.ADMIN);
+            log.info("Status: {}", ApprovalStatus.APPROVED);
 
         } catch (Exception e) {
-            log.error("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
             log.error("Failed to create default admin user: {}", e.getMessage());
-            log.error("   Error details: ", e);
-            log.error("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
+            log.error("Error details: ", e);
         }
     }
 }
